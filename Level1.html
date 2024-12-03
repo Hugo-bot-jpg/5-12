@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level1</title>
+    <style>
+        /* Style the background and text */
+        body {
+            background-color: black; /* Black background */
+            color: white; /* White text */
+            font-family: Arial, sans-serif; /* Change the font to something clean */
+            text-align: center; /* Center the text */
+            padding: 20px;
+        }
+
+        /* Style the title */
+        h1 {
+            font-size: 2.5em; /* Increase title size */
+            margin-bottom: 20px; /* Space between title and content */
+        }
+
+        /* Adjust image size */
+        img {
+            max-width: 80%; /* Limit image width to 80% of the screen */
+            height: auto; /* Maintain aspect ratio */
+            border: 5px solid white; /* Add a white border around the image */
+            margin-top: 20px; /* Space between title and image */
+        }
+
+        /* Style the hint text */
+        p {
+            font-size: 1.2em; /* Slightly larger text for the hint */
+            margin-top: 20px; /* Space between image and hint text */
+        }
+
+        /* Hide the content until the correct password is entered */
+        #content {
+            display: none;
+        }
+
+        /* Hide the password form once the password is correct */
+        #passwordForm {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Enj lnsix ptry ij ... .myrq -->
+
+
+<!-- Met 'Welke dag?' wordt de datum bedoeld -->
+  
+    <h1> Dag hoor! </h1>
+    <div id="passwordForm">
+        <p> Vul het wachtwoord in om verder te gaan: </p>
+        <input type="password" id="password" placeholder="Wachtwoord">
+        <button onclick="checkPassword()">Inloggen</button>
+    </div>
+
+    
+    <div id="content">
+        <p> De titel van de pagina kan hints bevatten </p>
+        <img src="goedheiligman.jpg" alt="Hohohoho" />
+        <p>Welke dag is het vandaag?</p>
+    </div>
+
+    <script>
+        const correctPassword = "sintenpiet"; 
+
+        function checkPassword() {
+            const passwordInput = document.getElementById("password").value;
+            if (passwordInput === correctPassword) {
+                document.getElementById("content").style.display = "block"; 
+                document.getElementById("passwordForm").style.display = "none"; 
+                alert("Welkom, je hebt toegang tot de puzzel!");
+
+                
+                document.title = "ctrl u"; 
+            } else {
+                alert("Ongeldig wachtwoord. Probeer het opnieuw.");
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Julius wie? -->
